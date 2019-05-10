@@ -11,6 +11,7 @@
     <module>chapter01</module>
       <module>chapter02</module>
     <module>chapter03</module>
+    <module>chapter04</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -93,6 +94,26 @@
       <artifactId>javax.annotation-api</artifactId>
       <version>1.2</version>
     </dependency>
+
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.16</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>4.3.6.RELEASE</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-tx</artifactId>
+      <version>4.3.6.RELEASE</version>
+    </dependency>
+
+
 
 
 
