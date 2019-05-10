@@ -3,19 +3,19 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/spring?serverTimezone=UTC"/>
-<!--        jdbc:mysql://localhost:3306/spring-->
+    <bean id="dataSource" class="org.springframework.com.itheima.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.com.itheima.jdbc.Driver"/>
+        <property name="url" value="com.itheima.jdbc:mysql://localhost:3306/spring?serverTimezone=UTC"/>
+<!--        com.itheima.jdbc:mysql://localhost:3306/spring-->
         <property name="username" value="binguner"/>
         <property name="password" value="970308123"/>
     </bean>
 
-    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+    <bean id="jdbcTemplate" class="org.springframework.com.itheima.jdbc.core.JdbcTemplate">
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <bean id="accountDao" class="com.itheima.jdbc.AccountDaoImpl">
+    <bean id="accountDao" class="com.itheima.com.itheima.jdbc.AccountDaoImpl">
         <property name="jdbcTemplate" ref="jdbcTemplate"/>
     </bean>
 
