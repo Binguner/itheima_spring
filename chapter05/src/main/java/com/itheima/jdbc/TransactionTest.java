@@ -13,4 +13,12 @@ public class TransactionTest {
         dao.transfer("Tom", "Jack", 100.0);
         System.out.println("转账成功!");
     }
+
+    @Test
+    public void annotationTest(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        AccountDao dao = (AccountDao) context.getBean("accountDao");
+        dao.transfer("Tom", "Jack", 1000.0);
+        System.out.println("转账成功！");
+    }
 }
