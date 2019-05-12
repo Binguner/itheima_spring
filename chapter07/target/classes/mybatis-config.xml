@@ -2,6 +2,7 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd" >
 <configuration>
+
     <environments default="mysql">
         <environment id="mysql">
             <transactionManager type="JDBC"/>
@@ -13,7 +14,9 @@
             </dataSource>
         </environment>
     </environments>
+
     <mappers>
-        <mapper resource="com/itheima/mapper/CustomerMapper.xml"/>
+        <mapper resource="com/itheima/mapper/UserMapper.xml"/>
     </mappers>
+
 </configuration>

@@ -54,6 +54,7 @@ public class MybatisTest {
         customer.setPhone("999999999999");
         int rows = sqlSession.insert("com.itheima.mapper.CustomerMapper.addCustomer",customer);
         if(rows > 0){
+            System.out.println("Insert " + customer.getId());
             System.out.println("你修改了 " + rows + " 条数据！");
         }else {
             System.out.println("执行插入操作失败！");
@@ -89,7 +90,7 @@ public class MybatisTest {
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
-        int rows = sqlSession.delete("com.itheima.mapper.CustomerMapper.deleteCustomer",5);
+        int rows = sqlSession.delete("com.itheima.mapper.CustomerMapper.deleteCustomer",7);
         if(rows > 0){
             System.out.println("您删除了 " + rows + " 条数据！");
         }else {
