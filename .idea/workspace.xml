@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/java/com/itheima/mapper/CustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/main/java/com/itheima/mapper/CustomerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter09/src/main/resources/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/chapter06/chapter07/target/" />
     <ignored path="$PROJECT_DIR$/chapter07/target/" />
     <ignored path="$PROJECT_DIR$/chapter08/target/" />
+    <ignored path="$PROJECT_DIR$/chapter09/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,51 +52,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter08/src/main/resources/applicationContext.xml">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fc2a2ff6-6e61-4b9e-9d70-b311dac99b0b/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="415">
+              <caret line="74" column="8" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter08/src/main/java/com/itheima/mapper/CustomerMapper.xml">
+        <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="51" column="74" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="74" />
+            <state relative-caret-position="38">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding>
-                <element signature="n#select#0;n#mapper#0;n#!!top" />
-                <element signature="n#select#1;n#mapper#0;n#!!top" />
-                <element signature="n#update#0;n#mapper#0;n#!!top" />
-                <element signature="n#select#2;n#mapper#0;n#!!top" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/Orders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="37" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/OrdersMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="128" selection-start-line="9" selection-start-column="113" selection-end-line="9" selection-end-column="128" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/ProductMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter08/src/main/java/com/itheima/test/MybatisTest.java">
+        <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/test/MybatisAssociationedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+            <state relative-caret-position="511">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#findCustomerByNameAndJobsTest#0;class#MybatisTest#0" />
-                <element signature="method#findCustomerByNameOrJobsTest#0;class#MybatisTest#0" />
-                <element signature="method#updateCustomerTest#0;class#MybatisTest#0" />
-                <element signature="method#findCustomerByIdsTest#0;class#MybatisTest#0" />
-                <element signature="e#1935#1944#0" expanded="true" />
+                <element signature="method#findPersonByIdTest#0;class#MybatisAssociationedTest#0" />
+                <element signature="method#findPersonByIdTest2#0;class#MybatisAssociationedTest#0" />
+                <element signature="method#findUserTest#0;class#MybatisAssociationedTest#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter08/src/main/resources/mybatis-config.xml">
+        <entry file="file://$PROJECT_DIR$/chapter09/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="399">
+              <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -108,9 +154,10 @@
         <option value="FxmlFile" />
         <option value="Tag Library Descriptor" />
         <option value="spring-beans.schema" />
-        <option value="Mapper" />
         <option value="MyBatis-config" />
         <option value="Class" />
+        <option value="Gradle Kotlin DSL Settings" />
+        <option value="Mapper" />
       </list>
     </option>
   </component>
@@ -137,22 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter03/src/main/java/com/itheima/factorybean/MyAspect.java" />
-        <option value="$PROJECT_DIR$/chapter03/src/main/java/com/itheima/factorybean/ProxyFactoryBeanTest.java" />
-        <option value="$PROJECT_DIR$/chapter03/src/main/java/com/itheima/aspectj/xml/MyAspect.java" />
-        <option value="$PROJECT_DIR$/chapter03/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/chapter03/src/main/resources/applicationContext2.xml" />
-        <option value="$PROJECT_DIR$/chapter03/src/main/java/com/itheima/aspectj/xml/TestXmlAspextJ.java" />
-        <option value="$PROJECT_DIR$/chapter03/src/main/java/com/itheima/aspectj/annotation/MyAspect.java" />
-        <option value="$PROJECT_DIR$/chapter03/src/main/java/com/itheima/jdk/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/chapter03/src/main/resources/applicationContext3.xml" />
-        <option value="$PROJECT_DIR$/chapter03/src/main/java/com/itheima/aspectj/annotation/TestAnnotation.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8084a0fc-9c14-4231-bd49-cc0cca5c470c/console.sql" />
-        <option value="$PROJECT_DIR$/chapter04/src/main/webapp/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/chapter04/src/main/java/com/itheima/jdbc/Account.java" />
-        <option value="$PROJECT_DIR$/chapter04/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/chapter04/src/main/java/com/itheima/jdbc/AccountDao.java" />
-        <option value="$PROJECT_DIR$/chapter04/src/main/java/com/itheima/jdbc/AccountDaoImpl.java" />
         <option value="$PROJECT_DIR$/chapter04/src/main/java/com/itheima/jdbc/JdbcTemplateTest.java" />
         <option value="$PROJECT_DIR$/chapter05/src/main/java/jdbc/AccountDao.java" />
         <option value="$PROJECT_DIR$/chapter05/src/main/java/com/itheima/jdbc/AccountDao.java" />
@@ -173,7 +204,6 @@
         <option value="$PROJECT_DIR$/chapter06/src/main/java/com/itheima/mapper/CustomerMapper.xml" />
         <option value="$PROJECT_DIR$/chapter06/chapter07/pom.xml" />
         <option value="$PROJECT_DIR$/chapter07/src/main/java/com/itheima/po/User.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fc2a2ff6-6e61-4b9e-9d70-b311dac99b0b/console.sql" />
         <option value="$PROJECT_DIR$/chapter07/src/main/java/com/itheima/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/chapter06/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/chapter07/pom.xml" />
@@ -186,8 +216,25 @@
         <option value="$PROJECT_DIR$/chapter08/pom.xml" />
         <option value="$PROJECT_DIR$/chapter08/src/main/java/com/itheima/utils/MyBatisUtils.java" />
         <option value="$PROJECT_DIR$/chapter08/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/chapter08/src/main/java/com/itheima/mapper/CustomerMapper.xml" />
         <option value="$PROJECT_DIR$/chapter08/src/main/java/com/itheima/test/MybatisTest.java" />
+        <option value="$PROJECT_DIR$/chapter08/src/main/java/com/itheima/mapper/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/utils/MyBatisUtils.java" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/IdCard.java" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/Person.java" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/IdCardMapper.xml" />
+        <option value="$PROJECT_DIR$/chapter09/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/PersonMapper.xml" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/User.java" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/UserMapper.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fc2a2ff6-6e61-4b9e-9d70-b311dac99b0b/console.sql" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/Porduct.java" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/Orders.java" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/OrdersMapper.xml" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/chapter09/src/main/java/com/itheima/test/MybatisAssociationedTest.java" />
       </list>
     </option>
   </component>
@@ -223,25 +270,51 @@
             <path>
               <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter06" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter06" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter06" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -249,7 +322,7 @@
             <path>
               <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -258,7 +331,7 @@
             <path>
               <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -268,7 +341,7 @@
             <path>
               <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -278,10 +351,27 @@
             <path>
               <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn_Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Learn_Spring" type="b2602c69:ProjectViewProjectNode" />
@@ -310,7 +400,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter05/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter08/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -320,21 +410,22 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\Learn_Spring\chapter05\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.itheima.aspectj.annotation" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Learn_Spring\chapter09\src\main\resources" />
       <recent name="E:\IdeaProjects\Learn_Spring\chapter08\src\main\resources" />
       <recent name="E:\IdeaProjects\Learn_Spring" />
       <recent name="E:\IdeaProjects\Learn_Spring\chapter06\src\main\java\com\itheima\mapper" />
       <recent name="E:\IdeaProjects\Learn_Spring\chapter06\src\main\resources" />
-      <recent name="E:\IdeaProjects\Learn_Spring\chapter05\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.aspectj.annotation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Learn_Spring\chapter08\src\main\resources" />
+      <recent name="E:\IdeaProjects\Learn_Spring\chapter05\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -349,7 +440,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.findCustomerByNameTest">
+  <component name="RunManager" selected="JUnit.MybatisAssociationedTest.findUserTest">
+    <configuration name="MybatisAssociationedTest.findPersonByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisAssociationedTest" />
+      <option name="METHOD_NAME" value="findPersonByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisAssociationedTest.findPersonByIdTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisAssociationedTest" />
+      <option name="METHOD_NAME" value="findPersonByIdTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisAssociationedTest.findUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisAssociationedTest" />
+      <option name="METHOD_NAME" value="findUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisTest.findCustomerByIdsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter08" />
       <extension name="coverage">
@@ -361,38 +500,6 @@
       <option name="PACKAGE_NAME" value="com.itheima.test" />
       <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
       <option name="METHOD_NAME" value="findCustomerByIdsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.findCustomerByNameAndJobsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter08" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itheima.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
-      <option name="METHOD_NAME" value="findCustomerByNameAndJobsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.findCustomerByNameOrJobsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter08" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itheima.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
-      <option name="METHOD_NAME" value="findCustomerByNameOrJobsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -414,36 +521,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.updateCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter08" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itheima.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
-      <option name="METHOD_NAME" value="updateCustomerTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.MybatisTest.findCustomerByNameAndJobsTest" />
-      <item itemvalue="JUnit.MybatisTest.findCustomerByNameOrJobsTest" />
-      <item itemvalue="JUnit.MybatisTest.updateCustomerTest" />
       <item itemvalue="JUnit.MybatisTest.findCustomerByIdsTest" />
       <item itemvalue="JUnit.MybatisTest.findCustomerByNameTest" />
+      <item itemvalue="JUnit.MybatisAssociationedTest.findPersonByIdTest" />
+      <item itemvalue="JUnit.MybatisAssociationedTest.findPersonByIdTest2" />
+      <item itemvalue="JUnit.MybatisAssociationedTest.findUserTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisAssociationedTest.findUserTest" />
+        <item itemvalue="JUnit.MybatisAssociationedTest.findPersonByIdTest2" />
+        <item itemvalue="JUnit.MybatisAssociationedTest.findPersonByIdTest" />
         <item itemvalue="JUnit.MybatisTest.findCustomerByNameTest" />
         <item itemvalue="JUnit.MybatisTest.findCustomerByIdsTest" />
-        <item itemvalue="JUnit.MybatisTest.updateCustomerTest" />
-        <item itemvalue="JUnit.MybatisTest.findCustomerByNameAndJobsTest" />
-        <item itemvalue="JUnit.MybatisTest.findCustomerByNameOrJobsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -465,44 +556,44 @@
       <workItem from="1557480839825" duration="7331000" />
       <workItem from="1557540078712" duration="16284000" />
       <workItem from="1557622538952" duration="15359000" />
-      <workItem from="1557733714730" duration="2410000" />
+      <workItem from="1557733714730" duration="14235000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MybatisTest_findCustomerByNameAndJobsTest - 2019.05.12 at 20h 41m 18s.xml">
-      <configuration name="MybatisTest.findCustomerByNameAndJobsTest" configurationId="JUnit" />
+    <history-entry file="MybatisAssociationedTest_findUserTest - 2019.05.13 at 21h 54m 02s.xml">
+      <configuration name="MybatisAssociationedTest.findUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_findCustomerByNameAndJobsTest - 2019.05.12 at 20h 42m 13s.xml">
-      <configuration name="MybatisTest.findCustomerByNameAndJobsTest" configurationId="JUnit" />
+    <history-entry file="MybatisAssociationedTest_findUserTest - 2019.05.13 at 21h 54m 41s.xml">
+      <configuration name="MybatisAssociationedTest.findUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_findCustomerByNameAndJobsTest - 2019.05.12 at 20h 48m 10s.xml">
-      <configuration name="MybatisTest.findCustomerByNameAndJobsTest" configurationId="JUnit" />
+    <history-entry file="MybatisAssociationedTest_findUserTest - 2019.05.13 at 21h 55m 10s.xml">
+      <configuration name="MybatisAssociationedTest.findUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_findCustomerByNameOrJobsTest - 2019.05.12 at 20h 48m 16s.xml">
-      <configuration name="MybatisTest.findCustomerByNameOrJobsTest" configurationId="JUnit" />
+    <history-entry file="MybatisAssociationedTest_findUserTest - 2019.05.13 at 21h 55m 31s.xml">
+      <configuration name="MybatisAssociationedTest.findUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_findCustomerByNameOrJobsTest - 2019.05.12 at 20h 48m 39s.xml">
-      <configuration name="MybatisTest.findCustomerByNameOrJobsTest" configurationId="JUnit" />
+    <history-entry file="MybatisAssociationedTest_findUserTest - 2019.05.13 at 21h 56m 17s.xml">
+      <configuration name="MybatisAssociationedTest.findUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_findCustomerByNameAndJobsTest - 2019.05.12 at 22h 22m 59s.xml">
-      <configuration name="MybatisTest.findCustomerByNameAndJobsTest" configurationId="JUnit" />
+    <history-entry file="MybatisAssociationedTest_findUserTest - 2019.05.13 at 21h 56m 44s.xml">
+      <configuration name="MybatisAssociationedTest.findUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_updateCustomerTest - 2019.05.13 at 15h 57m 16s.xml">
-      <configuration name="MybatisTest.updateCustomerTest" configurationId="JUnit" />
+    <history-entry file="MybatisAssociationedTest_findUserTest - 2019.05.13 at 21h 56m 56s.xml">
+      <configuration name="MybatisAssociationedTest.findUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_updateCustomerTest - 2019.05.13 at 16h 03m 12s.xml">
-      <configuration name="MybatisTest.updateCustomerTest" configurationId="JUnit" />
+    <history-entry file="MybatisAssociationedTest_findUserTest - 2019.05.13 at 21h 57m 16s.xml">
+      <configuration name="MybatisAssociationedTest.findUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_findCustomerByIdsTest - 2019.05.13 at 16h 12m 55s.xml">
-      <configuration name="MybatisTest.findCustomerByIdsTest" configurationId="JUnit" />
+    <history-entry file="MybatisAssociationedTest_findUserTest - 2019.05.13 at 21h 57m 36s.xml">
+      <configuration name="MybatisAssociationedTest.findUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_findCustomerByIdsTest - 2019.05.13 at 16h 13m 53s.xml">
-      <configuration name="MybatisTest.findCustomerByIdsTest" configurationId="JUnit" />
+    <history-entry file="MybatisAssociationedTest_findUserTest - 2019.05.13 at 21h 57m 59s.xml">
+      <configuration name="MybatisAssociationedTest.findUserTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95963000" />
+    <option name="totallyTimeSpent" value="107788000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,7 +608,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64013267" visible="true" weight="0.2249467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64013267" visible="true" weight="0.2249467" />
       <window_info id="Structure" order="1" sideWeight="0.35986733" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -526,8 +617,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32182628" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32182628" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,130 +647,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter03/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/src/main/java/com/itheima/aspectj/xml/MyAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8084a0fc-9c14-4231-bd49-cc0cca5c470c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/src/main/java/com/itheima/jdbc/JdbcTemplateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="75" column="23" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/src/main/java/com/itheima/jdbc/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/src/main/java/com/itheima/jdbc/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/src/main/java/com/itheima/jdbc/AccountDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1518#1527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.6.RELEASE/spring-jdbc-4.3.6.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="666" column="15" selection-start-line="666" selection-start-column="15" selection-end-line="666" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.jar!/org/springframework/cache/config/spring-cache-4.3.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="146" column="4" selection-start-line="146" selection-start-column="4" selection-end-line="146" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/src/main/java/com/itheima/jdbc/JdbcTemplateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/src/main/java/com/itheima/jdbc/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/src/main/resources/applicationContext-annotation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/src/main/java/com/itheima/jdbc/Account.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter05/src/main/java/com/itheima/jdbc/TransactionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -732,13 +699,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter07/src/main/webapp/WEB-INF/applicationContext.xml" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fc2a2ff6-6e61-4b9e-9d70-b311dac99b0b/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter06/src/main/java/com/itheima/mapper/CustomerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -887,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter08/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter06/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -915,13 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter08/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter06/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -929,47 +875,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter08/src/main/java/com/itheima/utils/MyBatisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter08/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="423">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter08/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter08/src/main/java/com/itheima/mapper/CustomerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="51" column="74" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="74" />
-          <folding>
-            <element signature="n#select#0;n#mapper#0;n#!!top" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" />
-            <element signature="n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#select#2;n#mapper#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="395">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter08/src/main/java/com/itheima/test/MybatisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        <state relative-caret-position="404">
+          <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#findCustomerByNameAndJobsTest#0;class#MybatisTest#0" />
@@ -977,6 +900,220 @@
             <element signature="method#updateCustomerTest#0;class#MybatisTest#0" />
             <element signature="method#findCustomerByIdsTest#0;class#MybatisTest#0" />
             <element signature="e#1935#1944#0" expanded="true" />
+            <element signature="method#findCustomerByNameTest#0;class#MybatisTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter08/src/main/java/com/itheima/utils/MyBatisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter08/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter08/src/main/java/com/itheima/mapper/CustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter08/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter08/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/IdCardMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/IdCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/utils/MyBatisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/PersonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fc2a2ff6-6e61-4b9e-9d70-b311dac99b0b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="74" column="8" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/po/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/OrdersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="128" selection-start-line="9" selection-start-column="113" selection-end-line="9" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/mapper/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/src/main/java/com/itheima/test/MybatisAssociationedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#findPersonByIdTest#0;class#MybatisAssociationedTest#0" />
+            <element signature="method#findPersonByIdTest2#0;class#MybatisAssociationedTest#0" />
+            <element signature="method#findUserTest#0;class#MybatisAssociationedTest#0" />
           </folding>
         </state>
       </provider>
