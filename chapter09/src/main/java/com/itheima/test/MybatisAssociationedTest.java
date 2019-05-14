@@ -40,7 +40,11 @@ public class MybatisAssociationedTest {
     @Test
     public void findOrdersTest(){
         SqlSession sqlSession = MyBatisUtils.getSession();
-//        Orders orders = sqlSession.selectOne(ordersPreStr+".")
+        Orders orders = sqlSession.selectOne(ordersPreStr+"findOrdersWithProductResult", 1);
+        System.out.println(orders);
+        sqlSession.close();
     }
+
+
 }
 

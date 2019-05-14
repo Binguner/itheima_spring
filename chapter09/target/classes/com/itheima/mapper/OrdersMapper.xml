@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.itheima.mapper.OrdersMapper">
     <select id="findOrdersWithProductResult" parameterType="Integer"  resultMap="OrdersWithProductResult">
-        select * from tb_orders where id=#{id}  
+        select * from tb_orders where id=#{id}
     </select>
     <resultMap id="OrdersWithProductResult" type="Orders">
         <id property="id" column="id"/>
