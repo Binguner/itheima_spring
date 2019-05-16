@@ -10,6 +10,7 @@
         <module name="chapter03" />
         <module name="chapter02" />
         <module name="chapter01" />
+        <module name="chapter12" />
         <module name="chapter11" />
         <module name="chapter10" />
         <module name="chapter09" />
@@ -18,5 +19,8 @@
         <module name="chapter05" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chapter11" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

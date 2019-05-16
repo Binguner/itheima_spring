@@ -16,9 +16,10 @@
     <module>chapter06</module>
     <module>chapter07</module>
     <module>chapter08</module>
-      <module>chapter09</module>
+    <module>chapter09</module>
     <module>chapter10</module>
-      <module>chapter11</module>
+    <module>chapter11</module>
+      <module>chapter12</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -219,6 +220,18 @@
       <version>2.4.2</version>
     </dependency>
 
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>4.3.6.RELEASE</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>4.3.6.RELEASE</version>
+    </dependency>
 
 
   </dependencies>
