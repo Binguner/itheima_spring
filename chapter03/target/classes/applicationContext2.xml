@@ -2,8 +2,14 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd">
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        ">
 
     <!--   1 目标类-->
     <bean id="userDao" class="com.itheima.jdk.UserDaoImpl"/>
@@ -17,10 +23,10 @@
             <aop:pointcut id="myPointCut" expression="execution(* com.itheima.jdk.*.*(..))"/>
             <!-- 3.2 关联通知 Advice 和切入点 pointCut-->
             <!-- 3.2.1 前置通知-->
-            <aop:before method="myBafore" pointcut-ref="myPointCut"/>
+            <aop:before method="myBefore" pointcut-ref="myPointCut"/>
             <!-- 3.2.2 后置通知，在方法返回之后执行，就可以获取返回值
             returning 属性：用于设置后置通知的第二个参数的名称，类型是 Object-->
-            <aop:after-returning method="myAfterReturning" pointcut-ref="myPointCut" returning="joinPoint" />
+            <aop:after-returning method="myAfterReturning" pointcut-ref="myPointCut" returning="returnVal" />
             <!-- 3.2.3 环绕通知-->
             <aop:around method="myAround" pointcut-ref="myPointCut"/>
             <!-- 3.2.4 抛出通知：用于处理程序发送异常-->
@@ -28,7 +34,7 @@
             <!-- * throwing 属性：用于设置通知第二个参数的名称，类型 Throwable-->
             <aop:after-throwing method="myAfterThrowing" pointcut-ref="myPointCut" throwing="e"/>
             <!-- 3.2.5 最终通知：无论程序发送任何事请，都回执行-->
-
+            <aop:after method="myAfter" pointcut-ref="myPointCut"/>
         </aop:aspect>
     </aop:config>
 </beans>

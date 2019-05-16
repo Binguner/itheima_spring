@@ -51,7 +51,7 @@ public class MyAspect {
     }
 
     // 异常通知
-    @AfterThrowing(value = "myPointCut" ,throwing = "e")
+    @AfterThrowing(value = "myPointCut()" ,throwing = "e")
     public void myAfterThrowing(JoinPoint joinPoint, Throwable e){
         System.out.println("异常通知：出错了" + e.getMessage() );
     }

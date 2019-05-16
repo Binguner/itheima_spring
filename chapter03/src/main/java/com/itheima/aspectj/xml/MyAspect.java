@@ -6,7 +6,7 @@ import org.aspectj.lang.ProceedingJoinPoint;
 public class MyAspect {
 
     // 前置通知
-    public void myBafore(JoinPoint joinPoint){
+    public void myBefore(JoinPoint joinPoint){
         System.out.println("前置通知：模拟执行权限检查...");
         System.out.println("目标类是：" + joinPoint.getTarget());
         System.out.println(",被植入增强处理的目标方法为：" + joinPoint.getSignature().getName());
