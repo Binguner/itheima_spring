@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!-- @version $Id: applicationContext.xml 561608 2007-08-01 00:33:12Z vgritsenko $ -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util-2.0.xsd
+                           http://www.springframework.org/schema/tx
+                           http://www.springframework.org/schema/tx/spring-tx.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/cache
+                           http://www.springframework.org/schema/cache/spring-cache.xsd">
+
+    <context:property-placeholder location="classpath*:db.properties"/>
+<!--    配置数据源-->
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+<!--        数据库驱动-->
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+<!--        最大连接数-->
+        <property name="maxTotal" value="${jdbc.maxTotal}"/>
+<!--        最大空闲连接-->
+        <property name="maxIdle" value="${jdbc.maxIdle}"/>
+<!--        初始化链接数-->
+        <property name="initialSize" value="${jdbc.initialSize}"/>
+    </bean>
+
+<!--    事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+<!--    开启事务注解-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+<!--    配置 MyBatis 工厂 SqlSessionFactory-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+<!--        注入数据源-->
+        <property name="dataSource" ref="dataSource"/>
+<!--        指定核心 MyBatis 配置文件-->
+        <property name="configLocation" value="WEB-INF/mybatis-config.xml"/>
+    </bean>
+
+<!--    配置 Mapper 扫描器-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.itheima.dao"/>
+    </bean>
+
+<!--    扫描 service-->
+    <context:component-scan base-package="com.itheima.service"/>
+</beans>
+
+
