@@ -15,11 +15,12 @@ public class MyAspect {
     @Pointcut("execution(* com.itheima.jdk.*.*(..))")
     // 使用一个返回值为 void、方法体为空的方法来命名切入点
     private void myPointCut(){
+        System.out.println("it's pointCut");
     }
 
     // 前置通知
     @Before("myPointCut()")
-    public void myBafore(JoinPoint joinPoint){
+    public void myBefore(JoinPoint joinPoint){
         System.out.println("前置通知：模拟执行权限检查...");
         System.out.println("目标类是：" + joinPoint.getTarget());
         System.out.println(",被植入增强处理的目标方法为：" + joinPoint.getSignature().getName());
