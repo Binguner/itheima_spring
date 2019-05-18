@@ -3,8 +3,8 @@
 <mapper namespace="com.zhengzuoyu.mapper.StudentMapper">
 
     <insert id="addStudent" parameterType="com.zhengzuoyu.po.Student" keyProperty="id" useGeneratedKeys="true">
-        insert into students(name, age, gender, number)
-        values (#{name}, #{age}, #{gender}, #{number})
+        insert into students(name, age, gender, number, address, status)
+        values (#{name}, #{age}, #{gender}, #{number}, #{address}, #{status} )
     </insert>
 
     <delete id="deleteStudent" parameterType="Integer">
@@ -16,4 +16,15 @@
         where id=#{id}
     </update>
 
+    <select id="selectStudentById" parameterType="Integer" resultType="com.zhengzuoyu.po.Student">
+        select * from students where id=#{id}
+    </select>
+
+    <select id="selectStudentByName" parameterType="String" resultType="com.zhengzuoyu.po.Student">
+        select * from students where name like '%${value}%'
+    </select>
+
+    <select id="selectStudentByNameOrAddress" parameterType="java.util.Map" resultType="com.zhengzuoyu.po.Student">
+        select * from students where name like '%${name}%' and address like '%${address}%'
+    </select>
 </mapper>

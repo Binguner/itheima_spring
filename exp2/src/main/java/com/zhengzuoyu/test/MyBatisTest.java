@@ -5,6 +5,10 @@ import com.zhengzuoyu.utils.MyBatisUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class MyBatisTest {
 
     private final String preStr = "com.zhengzuoyu.mapper.StudentMapper.";
@@ -13,10 +17,12 @@ public class MyBatisTest {
     public void addStudentTest() {
         SqlSession sqlSession = MyBatisUtils.getSqlSession();
         Student student = new Student();
-        student.setName("ZhangSan2");
+        student.setName("ZhangSan4");
         student.setAge(18);
-        student.setGender("male");
-        student.setNumber(01);
+        student.setGender("female");
+        student.setAddress("Shanxi");
+        student.setNumber(02);
+        student.setStatus(1);
         int rows = sqlSession.insert(preStr + "addStudent",student);
         if (rows > 0) {
             System.out.println("插入数据成功!");
@@ -59,8 +65,46 @@ public class MyBatisTest {
     }
 
     @Test
-    public void 
+    public void selectStudentByIdTest() {
+        SqlSession sqlSession = MyBatisUtils.getSqlSession();
+        Student student = sqlSession.selectOne(preStr+"selectStudentById",6);
+        if (null != student) {
+            System.out.println(student);
+        } else {
+            System.out.println("找不到该学生！");
+        }
+        sqlSession.close();
+    }
 
+    @Test
+    public void selectStudentByNameTest() {
+        SqlSession sqlSession = MyBatisUtils.getSqlSession();
+        List<Student> students = sqlSession.selectList(preStr + "selectStudentByName", "ZhangSan");
+        if (null != students) {
+            for (Student student : students) {
+                System.out.println(student);
+            }
+        } else {
+            System.out.println("找不到该学生！");
+        }
+        sqlSession.close();
+    }
+
+    @Test
+    public void selectStudentByNameOrAddressTest(){
+        SqlSession sqlSession = MyBatisUtils.getSqlSession();
+        Map<String, String> map = new HashMap<>();
+        map.put("name", "ZhangSan4");
+//        map.put("address", "Shanxi");
+        List<Student> students = sqlSession.selectList(preStr + "selectStudentByNameOrAddress", map);
+        if (null != students) {
+            for (Student student : students) {
+                System.out.println(student);
+            }
+        } else {
+            System.out.println("找不到该学生！");
+        }
+    }
 
 
 }
