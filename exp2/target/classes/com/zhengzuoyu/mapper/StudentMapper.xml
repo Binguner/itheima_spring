@@ -12,7 +12,7 @@
     </delete>
 
     <update id="updateStudent" parameterType="com.zhengzuoyu.po.Student">
-        update students set name=#{name}, age=#{age}, gender=#{gender}, number=#{number}
+        update students set name=#{name}, age=#{age}, gender=#{gender}, number=#{number},address=#{address}, status=#{status}
         where id=#{id}
     </update>
 
