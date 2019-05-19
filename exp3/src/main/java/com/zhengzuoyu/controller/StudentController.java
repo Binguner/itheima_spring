@@ -1,5 +1,6 @@
 package com.zhengzuoyu.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.zhengzuoyu.po.Student;
 import com.zhengzuoyu.po.User;
 import com.zhengzuoyu.service.StudentService;
@@ -46,46 +47,45 @@ public class StudentController {
 
         return "main";
     }
-
     @RequestMapping("/search")
-    public String search(int id) {
+    public String search(int id,Model model) {
         System.out.println("here");
         Student student = studentService.findStudentById(id);
-//        System.out.println(student);
-//        System.out.println("can't find this student!");
-        return "login";
+        model.addAttribute("student", student);
+        return "result";
     }
-
     @RequestMapping("/add")
-    public void addStudent(Student student) {
+    public String addStudent(Student student) {
         System.out.println(student);
-//        studentService.addStudent(student);
+        studentService.addStudent(student);
+        return "redirect:/main";
     }
-
     @RequestMapping("/delete")
-    public void deleteStudent(int id) {
+    public String deleteStudent(int id) {
         boolean flag = studentService.deleteStudentById(id);
-        System.out.println("flag is : " + flag);
+        return "redirect:/main";
+    }
+    @RequestMapping("/toUpdate")
+    public String updateStudent(int id, Model model) {
+        Student student = this.studentService.findStudentById(id);
+        model.addAttribute("student",student);
+        return "change";
     }
 
     @RequestMapping("/update")
-    public void updateStudent(Student student) {
-
-        boolean flag = studentService.updateStudentInfo(student);
-        System.out.println("Flag is : "+  flag);
+    public String update(Student student) {
+        System.out.println(student);
+        this.studentService.updateStudentInfo(student);
+        return "redirect:/main";
     }
-
     @RequestMapping("/all")
     public void getAllStudent() {
         List<Student> list = studentService.getAllStudent();
         if (null != list) {
             for (Student student : list) {
-                System.out.println(student);
-            }
+                System.out.println(student); }
         } else {
             System.out.println("empty list");
         }
     }
-
-
 }

@@ -15,31 +15,24 @@ public class StudentServiceImpl implements StudentService {
 
     @Autowired
     private StudentDao studentDao;
-
     @Override
     public Student findStudentById(int id) {
         return this.studentDao.findStudentById(id);
     }
-
     @Override
     public boolean deleteStudentById(int id) {
         return this.studentDao.deleteStudentById(id);
     }
-
     @Override
     public boolean updateStudentInfo(Student student) {
         return this.studentDao.updateStudentInfo(student);
     }
-
     @Override
     public boolean addStudent(Student student) {
         return this.studentDao.addStudent(student);
     }
-
     @Override
     public List<Student> getAllStudent() {
         return this.studentDao.getAllStudent();
     }
-
-
 }
